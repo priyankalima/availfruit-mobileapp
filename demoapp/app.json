@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "App",
-    "slug": "App",
+    "name": "demoapp",
+    "slug": "demoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "56b49b3c-59cf-4c24-ba9b-86d1f8f5571f"
+      }
+    },
+    "owner": "priyankalima"
   }
 }
